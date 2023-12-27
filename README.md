@@ -88,33 +88,43 @@ delete file
 
 delete directory
 
-chmod 
+- `chmod` 
+
 give permissions
 
-head fileName
+- `head fileName`
+
 show first 10 lines of a files
 
-tail filename
+- `tail filename`
+
 show last 10 lines of a file
 
-head -20 filename
+- `head -20 filename`
+
 show first 20 lines of a file
 
-taile -20 filename
+- `taile -20 filename`
+
 show last 20 lines of a file
 
-tail -n +25 newfile.txt | head 5
+- `tail -n +25 newfile.txt | head 5`
+
 show from line num. 25 to 5 lines
 
-grep "one" filename
+- `grep "one" filename`
+
 it searches the word one or anything in the string
 
-grep -c "one" filename
+- `grep -c "one" filename`
+
 shows the number of count how many times word appears 
 
-grep -h "one" filename
+- `grep -h "one" filename`
+
 shows in which line the word appears 
 
-grep -hi "one" filename
+- `grep -hi "one" filename`
+
 shows all the lines in which the word appears withouth checking the cases
 
