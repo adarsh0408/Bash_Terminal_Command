@@ -102,3 +102,44 @@
   
 - **`grep -hi "one" filename`**
   - Description: Shows all lines where the word "one" appears, ignoring case.
+
+
+## Text Editing
+
+- `nano filename` or `vim filename`: Open a text editor.
+- `cat filename`: Display the contents of a file.
+- `echo "text" > filename`: Create a file with the given text.
+- `grep pattern filename`: Search for a pattern in a file.
+- `sed 's/old/new/' filename`: Replace text in a file.
+
+## System Information
+
+- `uname -a`: Display system information.
+- `df -h`: Show disk space usage.
+- `free -m`: Display free and used memory.
+
+## Process Management
+
+- `ps`: Display information about processes.
+- `top`: Display real-time system statistics.
+- `kill PID`: Terminate a process by its process ID.
+
+## Package Management (Linux)
+
+- `sudo apt-get update`: Update package lists.
+- `sudo apt-get upgrade`: Upgrade installed packages.
+- `sudo apt-get install package`: Install a new package.
+- `sudo apt-get remove package`: Remove an installed package.
+
+## Network Commands
+
+- `ping hostname`: Send ICMP echo request to a host.
+- `nslookup domain`: Look up IP address information.
+- `ifconfig` or `ip addr`: Display network interface information.
+
+## Compression and Archiving
+
+- `tar -cvzf archive.tar.gz directory`: Create a compressed tarball.
+- `tar -xvzf archive.tar.gz`: Extract a tarball.
+- `zip filename.zip files`: Create a zip archive.
+- `unzip filename.zip`: Extract files from a zip archive.
